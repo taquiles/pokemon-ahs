@@ -1,0 +1,28 @@
+{
+  "name": "premiummind",
+  "version": "1.0.0",
+  "description": "PokemonEater",
+  "main": "pm.js",
+  "scripts": {
+    "start" : "node src/pm-ash.js",
+    "test":"jest --coverage --notify --watchAll --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taquiles/pokemon-ahs.git"
+  },
+  "keywords": [
+    "javascript",
+    "TDD",
+    "Jest"
+  ],
+  "author": "Pedro Galvão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taquiles/pokemon-ahs/issues"
+  },
+  "homepage": "https://github.com/taquiles/pokemon-ahs#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
